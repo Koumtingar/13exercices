@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo5</title>
+</head>
+<body>
+    <script lang="javascript">
+        var a=Number(prompt("Entrer la valeur de a"));
+        var b = Number(prompt("entrer la valeur de b"));
+        var c = Number(prompt("Entrer la valeur de c"));
+        var delta=b*b-4*a*c;
+        if (delta>0) {
+            x1=(-b-Math.sqrt(delta));
+            x2=(-b+Math.sqrt(delta));
+            document("les solutions ont pour valeur "+x1+" et "+X2);
+        }else if (delta==0) {
+            x0=-b/(2*a);
+            document.write("la solution a pour valeur approchée "+x0);
+        }else{
+            document.write("il n'ya pas de solution réelle");
+        }
+    </script>
+</body>
+</html>
